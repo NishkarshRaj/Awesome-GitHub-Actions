@@ -1,0 +1,12 @@
+name: 'Hello, World Test Action'
+description: 'Learning GitHub Actions'
+author: 'Nishkarsh Raj'
+inputs:
+  src:
+    description: 'None Required'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'check-circle'
+  color: 'green'
